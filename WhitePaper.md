@@ -1,1 +1,110 @@
 <h1>Eth Club 7</h1>
+<h2>Algorithmic Angel Investing</h2>
+<h3>Overview</h3>
+
+Eth Club 7 is a DAO of businesses that use DAOLE, an ERC-20 token, as currency.
+
+A business gets a grant in DAOLE, to start accepting it as payment. Initially, they accept DAOLE at a rate of $0.01/DAOLE, this is called Accepted Rate (AR), i.e. If a customer wants to buy a $1 orange, they can pay 100 DAOLE instead. This encourages adoption. If the market price of DAOLE reaches $0.009, AR doubles to $0.02. Everytime the market price of DAOLE reaches 90% parity with AR, it doubles. It never goes back down.
+
+AR is published via a smart contract so users can always see what they'll get for their DAOLE. Initially, the index currency is USD, although this can be changed via governance vote if needed.
+
+The size of a business’ grant should be high enough that both parties benefit: The customer, by the discount, and the businesses, by the value of the grant. But shouldn’t be too high, as efficiency is favored by the algorithmic nature of grant allocation, see below.
+
+<h4>How are these grants allocated? By the Eth Club 7 DAO.</h4>
+ 
+Eth Club 7 is made up of many 7-member ‘Clubs’ that invest these grants.
+
+Every time a grant is given, the venture that receives it becomes a new member of the Club that added them, unless the Club already has 7 members, in which case they become the first member of a new Club.
+
+The funding available for each Club to invest is based on the performance of members it has previously funded. This creates a network of Clubs where performance measurement is baked into the protocol.
+
+In the case where the newly added member becomes the first in a new Club, their performance will be split between the Club that added them and the new Club.
+
+<h3>Details</h3>
+<h4>Tokenomics</h4>
+DAOLE Max Supply: 10B DAOLE
+Liquidity Pool: 5B DAOLE
+Business Grants: 5B DAOLE
+
+<h3>Launch</h3>
+<h4>Auction and Whitelist</h4>
+100 Whitelist places will be auctioned to become the first 100 members, each in their own Club.
+
+<h4>Initial Mint and Liquidity</h4>
+5,112,500,000 (5.12B) DAOLE minted at launch.
+
+5B DAOLE and the Eth from the Whitelist Auction added to the liquidity pool, and the liquidity pool tokens sent to a burn address.
+112,500,000 be transferred to the first 100 Clubs on creation (see below)
+
+<h4>Creating the Clubs & funding</h4>
+Whitelisted accounts can create their Club and become a member anytime within the first month. This means there will initially be 100 Clubs with 1 member each.
+
+Each member will receive 1,125,000 DAOLE as their grant, this is locked for 6 months, as are all grants. The Club will also receive 1,125,000 DAOLE, which can be given as grants to onboard new members.
+
+<h3>Ongoing Distribution:</h3>
+<h4>Minting:</h4>
+Every 4 weeks 4.5% of remaining supply is minted to Clubs, based on the performance of members that Club has added previously, divided by the total performance of all Clubs:
+
+
+A member’s performance is defined as: 
+
+$P = \frac{V^2}{G}$
+
+Where:
+
+<i>
+P = Performance</br>
+V = Transaction volume received by the member in the previous month</br>
+G = Initial grant received by the member</br>
+ </i>
+
+And the performance of a club, PClub , is the sum of the performance of its members.
+
+So, the payment received by a Club every 4 weeks is:
+0.045(M-C)PClubPtotal
+Where:
+M = DAOLE Max supply
+C = DAOLE Current supply
+PClub = Club Performance
+Ptotal = Total Performance
+ 
+Clubs use these funds to give grants to new members to onboard them. These grants are locked for 6 months, then can be withdrawn.
+
+When the funds are minted to each Club, the active members of that Club will each be paid 1% of the Clubs balance to compensate them for participating in elections.
+ 
+Edge cases:
+When the member’s grant, Gm, is small, the minimum effective grant, Geff, will be used.
+Geff=T10n
+Where:
+T = Total grants given to date
+n = Number of members
+ 
+If total performance, Ptotal, is zero, i.e., no members received transfers that month, the payment is split equally amongst every Club.
+ 
+Burning
+1% of every transfer to a member is burned. This is to prevent volume spoofing and replenish funds for future distribution. Eventually there will be a balance between minting and burning, so the supply will never reach 10B tokens.
+ 
+Club details
+Every Club is made up of up to 7 members. The members are businesses, charities, dApps, or any other venture wishing to participate in Eth Club 7 and transact in DAOLE.
+ 
+The first 100 Clubs will have 1 member each, created at launch, see the Launch section for more details.
+ 
+New members are added as follows:
+1. 	An existing member proposes a new member to be added, and the size of the onboarding grant, and creates an election for the Club.
+a. 	Every member can only suggest one new member every 2 weeks.
+b. Grant must be at least 5% of the Club's balance and less than  balance/number of members.
+2. 	The election can be closed after 2 weeks, if more than 50% of members have voted yes, the new member is added and allocated their grant, which is locked for 6 months.
+a. 	If the Club already has 7 members, the new added member becomes the first in a new Club. Then their performance is split equally among the new Club and the Club that added them.
+Launch
+Auction and Whitelist
+100 Whitelist places will be auctioned to become the first 100 members, each in their own Club.
+ 
+Initial Mint and Liquidity
+5B DAOLE minted at launch.
+4B DAOLE and the Eth from the Whitelist Auction are added to a liquidity pool, and the liquidity pool tokens sent to a burn address.
+ 
+1B transferred to dev fund.
+ 
+Creating the DAOS & funding
+Whitelisted accounts can create their Club and become a member within the first month.
+The member will receive 1,125,000 DAOLE as their grant, this is locked for 6 months, as are all grants. The Club will also receive 1,125,000 DAOLE, this can be given as grants to onboard new members.
