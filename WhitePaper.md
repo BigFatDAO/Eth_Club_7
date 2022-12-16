@@ -74,14 +74,14 @@ P<sub>C</sub> = Club Performance</br>
 P<sub>t</sub> = Total Performance</br>
 </i>
 </br>
-Clubs use these funds to give grants to new members to onboard them. These grants are locked for 6 months, then can be withdrawn.
+Clubs use these funds to give grants to new members to onboard them. These grants are locked for 6 months, then can be withdrawn by the member.
 
-When the funds are minted to each Club, the active members of that Club will each be paid 1% of the Clubs balance to compensate them for participating in elections.
+In addition, when the funds are minted to each Club, the active members of that Club will each be paid 1% of the Clubs balance to compensate them for participating in elections.
  
 Edge cases:
 </br>
 When the member’s grant, G, is small, the minimum effective grant, G<sub>e</sub>, will be used.
-</br>
+</br></br>
 $G_e = T10n$
 </br>
 
