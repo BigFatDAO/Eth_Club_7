@@ -4,11 +4,11 @@
 
 Eth Club 7 is a DAO of businesses that use DAOLE, an ERC-20 token, as currency.
 
-A business gets a grant in DAOLE, to start accepting it as payment. Initially, they accept DAOLE at a rate of $0.01/DAOLE, this is called Accepted Rate (AR), i.e. If a customer wants to buy a $1 orange, they can pay 100 DAOLE instead. This encourages adoption. If the market price of DAOLE reaches $0.009, AR doubles to $0.02. Everytime the market price of DAOLE reaches 90% parity with AR, it doubles. It can only be reduced by governance vote, in order to correct a price oracle error.
+A business gets a grant in DAOLE, to start accepting it as payment. Initially, they accept DAOLE at a rate of $0.01/DAOLE, this is called Accepted Rate (AR), i.e. If a customer wants to buy a $1 orange, they can pay 100 DAOLE instead. This will initially be a huge discount and encourage adoption. If the market price of DAOLE reaches $0.009, AR doubles to $0.02. Everytime the market price of DAOLE reaches 90% parity with AR, it doubles. It can only be reduced by governance vote, e.g. in order to correct a price oracle error.
 
 AR is published via a smart contract so users can always see what they'll get for their DAOLE. Initially, the index currency is USD, although this can be changed via governance vote if needed.
 
-The size of a business’ grant should be high enough that both parties benefit: The customer, by the discount, and the businesses, by the value of the grant. But shouldn’t be too high, as efficiency is favored by the algorithmic nature of grant allocation, see below.
+The size of a business’ grant should be high enough that both parties benefit: The customer, by the discount, and the businesses, by the value of the grant. But the grant shouldn’t be too high, as efficiency is favored by the algorithmic nature of grant allocation, see below.
 
 <h4>How are these grants allocated? By the Eth Club 7 DAO.</h4> 
 Eth Club 7 is made up of many 7-member ‘Clubs’ that invest these grants.
