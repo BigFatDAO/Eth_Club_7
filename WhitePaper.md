@@ -35,7 +35,7 @@ In the case where the newly added member becomes the first in a new Club, their 
 
 5B DAOLE and the Eth from the Whitelist Auction added to the liquidity pool, and the liquidity pool tokens sent to a burn address.
 
-112,500,000 be transferred to the first 100 Clubs on creation (see below)
+112,500,000 to be transferred to the first 100 Clubs on creation (see below).
 
 <h4>Creating the Clubs & funding</h4>
 Whitelisted accounts can create their Club and become a member anytime within the first month. This means there will initially be 100 Clubs with 1 member each.
@@ -45,7 +45,7 @@ Each member will receive 1,125,000 DAOLE as their grant, this is locked for 6 mo
 <h3>Ongoing Distribution:</h3>
 <h4>Minting:</h4>
 Every 4 weeks 4.5% of remaining supply is minted to Clubs, based on the performance of members that Club has added previously, divided by the total performance of all Clubs:
-
+</br></br>
 <p>A member’s performance is defined as: 
 
 $P = \frac{V^2}{G}$
@@ -59,13 +59,14 @@ G = Initial grant received by the member</br>
  </i>
 </p>
 
-And the performance of a club, <i>P<sub>C</sub></i> , is the sum of the performance of its members.
-</br>
+The performance of a club, <i>P<sub>C</sub></i> , is the sum of the performance of its members.
+</br></br>
 So, the payment received by a Club every 4 weeks is:
-</br>
+</br></br>
 $0.045(M-C) \frac{P_C}{P_t}$
-</br>
+</br></br>
 Where:
+</br>
 <i>
 M = DAOLE Max supply </br>
 C = DAOLE Current supply </br>
@@ -73,7 +74,6 @@ P<sub>C</sub> = Club Performance</br>
 P<sub>t</sub> = Total Performance</br>
 </i>
 </br>
-
 Clubs use these funds to give grants to new members to onboard them. These grants are locked for 6 months, then can be withdrawn.
 
 When the funds are minted to each Club, the active members of that Club will each be paid 1% of the Clubs balance to compensate them for participating in elections.
