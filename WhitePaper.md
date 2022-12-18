@@ -8,12 +8,12 @@ A business gets a grant in DAOLE, to start accepting it as payment. Initially, t
 
 AR is published via a smart contract so users can always see what they'll get for their DAOLE. Initially, the index currency is USD, although this can be changed via governance vote if needed.
 
-The size of a business’ grant should be high enough that both parties benefit: The customer, by the discount, and the businesses, by the value of the grant. But the grant shouldn’t be too high, as efficiency is favored by the algorithmic nature of grant allocation, see below.
+The size of a business’ grant should be high enough that both parties benefit: The customer, by the discount, and the businesses, by the value of the grant, but not too high, as eficient grant allocation is favored for future grants.
 
 <h4>How are these grants allocated? By the Eth Club 7 DAO.</h4> 
 Eth Club 7 is made up of many 7-member ‘Clubs’ that invest these grants.
 
-Every time a grant is given, the venture that receives it becomes a new member of the Club that added them, unless the Club already has 7 members, in which case they become the first member of a new Club.
+Every time a Club gives a grant, the business that receives it becomes a new member of that Club, unless the Club already has 7 members, in which case they become the first member of a new Club.
 
 The funding available for each Club to invest is based on the performance of members it has previously funded. This creates a network of Clubs where performance measurement is baked into the protocol.
 
