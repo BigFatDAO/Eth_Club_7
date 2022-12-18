@@ -31,11 +31,10 @@ In the case where the newly added member becomes the first in a new Club, their 
 100 Whitelist places will be auctioned to become the first 100 members, each in their own Club.
 
 <h4>Initial Mint and Liquidity</h4>
-5,112,500,000 (5.12B) DAOLE minted at launch.
 
-5B DAOLE and the Eth from the Whitelist Auction added to the liquidity pool, and the liquidity pool tokens sent to a burn address.
-
-112,500,000 to be transferred to the first 100 Clubs on creation (see below).
+* 5,112,500,000 (5.12B) DAOLE minted at launch.
+* 5B DAOLE and the Eth from the Whitelist Auction added to the liquidity pool, and the liquidity pool tokens sent to a burn address.
+* 112,500,000 to be transferred to the first 100 Clubs on creation (see below).
 
 <h4>Creating the Clubs & funding</h4>
 Whitelisted accounts can create their Club and become a member anytime within the first month. This means there will initially be 100 Clubs with 1 member each.
