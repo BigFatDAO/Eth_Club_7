@@ -4,7 +4,7 @@
 
 Eth Club 7 is a DAO of businesses that use DAOLE, an ERC-20 token, as currency.
 
-A business gets a grant in DAOLE, to start accepting it as payment. Initially, they accept DAOLE at a rate of $0.01/DAOLE, this is called Accepted Rate (AR), i.e. If a customer wants to buy a $1 orange, they can pay 100 DAOLE instead. This will initially be a huge discount and encourage adoption. If the market price of DAOLE reaches $0.009, AR doubles to $0.02. Everytime the market price of DAOLE reaches 90% parity with AR, it doubles. It can only be reduced by governance vote, e.g. in order to correct a price oracle error.
+A business gets a grant in DAOLE to start accepting it as payment. Initially, they accept DAOLE at a rate of $0.01/DAOLE, this is called Accepted Rate (AR), i.e. If a customer wants to buy a $1 orange, they can pay 100 DAOLE instead. This will initially be a huge discount and encourage adoption. If the market price of DAOLE reaches $0.009, AR doubles to $0.02. Everytime the market price of DAOLE reaches 90% parity with AR, it doubles. It can only be reduced by governance vote, e.g. in order to correct a price oracle error.
 
 AR is published via a smart contract so users can always see what they'll get for their DAOLE. Initially, the index currency is USD, although this can be changed via governance vote if needed.
 
